@@ -11,7 +11,7 @@ Tensorflow implementation for 'Temporal 3D ConvNets'(t3d)
 ## Introduction
 'T3D' model can be applied to action recognition.Paper Url :https://arxiv.org/abs/1711.08200  
 Here is the tensorflow implementation with tf.slim to make code leaner.
-**Different from the authors' original implementation.I convert traditional 3D convolution(eg. tf.nn.conv3d(...)) to P3D('pseudo-3d') convolution which can greatly reduce the number of parameters.**
+**Different from the authors' original implementation.I convert traditional 3D convolution(eg. tf.nn.conv3d ) to P3D('pseudo-3d') convolution which can greatly reduce the number of parameters.**  
 (P3D details:http://openaccess.thecvf.com/content_ICCV_2017/papers/Qiu_Learning_Spatio-Temporal_Representation_ICCV_2017_paper.pdf )
 
 ## Preparing your own dataset.
