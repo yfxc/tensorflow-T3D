@@ -1,4 +1,4 @@
-# tensorflow-T3D
+Tensorflow-T3D
 ====================
 Tensorflow implementation for 'Temporal 3D ConvNets'(t3d)
 ****
@@ -29,4 +29,4 @@ You can also train and test model in 'tf-p3d-train_eval.ipynb' with jupyter note
 ## Others
 - Changing the properties for data augmentation in 'DataAugmenter.py'
 ## Warning
-- Do Not use tf.contrib.layers.batch_norm() or slim.batch_norm() which may lead to wrong answers when testing.Using**tf.layers.batch_normalization(training=...)** instead.
+- DO NOT use tf.contrib.layers.batch_norm() or slim.batch_norm() which may lead to wrong answers when testing.Using **tf.layers.batch_normalization(training=...)** instead.
