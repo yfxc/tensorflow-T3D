@@ -6,7 +6,6 @@ Tensorflow implementation for 'Temporal 3D ConvNets'(t3d)
 |Author|yfxc|
 |---|---
 |E-mail|1512165940@qq.com
-|---|---
 |Tensorflow|1.10+
 
 ****
